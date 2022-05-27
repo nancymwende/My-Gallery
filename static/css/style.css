@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body{
         background-image:url('https://cdn.pixabay.com/photo/2015/10/22/17/32/smoke-1001664__340.png');
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: 'Sofia';font-size: 22px;
+        
         
         
 }
 
 .heading{
     color: blue;
+    font-family: 'Dancing Script', cursive;
+
 }
