@@ -1,0 +1,12 @@
+body{
+        background-image:url('https://cdn.pixabay.com/photo/2015/10/22/17/32/smoke-1001664__340.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Sofia';font-size: 22px;
+        
+        
+}
+
+.heading{
+    color: blue;
+}
