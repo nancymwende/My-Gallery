@@ -4,10 +4,10 @@ from django.db import models
 import datetime as dt
 
 # Create your models here.
-class Images(models.Model):
+class Image(models.Model):
     image = models.ImageField(null=True,blank=True,upload_to = 'pictures/')
     name = models.CharField(max_length=50)
-    description = models.CharField(max_length=50)
+    description = models.CharField(max_length=100)
     location = models.ForeignKey('Location', on_delete=models.CASCADE,null=True)
     category = models.ForeignKey('Category',on_delete=models.CASCADE,null=True)
     pub_date = models.DateTimeField(auto_now_add=True)
@@ -25,7 +25,7 @@ class Images(models.Model):
         self.save()
     @classmethod
     def filter_by_location(cls, location):
-        location = Images.objects.filter(location__name=location).all()
+        location = Image.objects.filter(location__name=location).all()
         return location
     
     @classmethod
@@ -35,7 +35,7 @@ class Images(models.Model):
     
     @classmethod
     def search_by_category(cls,search_term):
-        category = cls.objects.filter(category__icontains=search_term)
+        category = cls.objects.filter(category__name=search_term)
         return category    
     
     def __str__(self):
