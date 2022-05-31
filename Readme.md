@@ -9,7 +9,7 @@
 # Description  
 This a gallery application with a collection of various pictures.A new User is able to click and view the location,category and description of each picture.User can also add,change,,edit ,delete pictures via the admin dashboard.
 
-##Screenshot
+## Screenshot
 <img src="/media/pictures/gallery1.png">
 
 ##  Live Link
