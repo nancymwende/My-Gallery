@@ -3,8 +3,6 @@ from django.http  import HttpResponse
 from .models import Category,Location,Image
 
 # Create your views here.
-def welcome(request):
-    return render(request, 'index.html')
     
 def images(request):
     images = Image.objects.all()
