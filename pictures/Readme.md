@@ -13,9 +13,6 @@ This a gallery application with a collection of various pictures.A new User is a
 
 
 
-## Screenshot
-<img src="media/pictures/gallery1.png">
-
 ## User Story  
 
 * View different photos from the galllery 
@@ -31,13 +28,13 @@ This a gallery application with a collection of various pictures.A new User is a
 
 
 ##### Navigate into the folder and install requirements  
- ```bash 
+ 
 cd mygallery pip install -r requirements.txt 
-```
+
 ##### Install and activate Virtual  
- ```bash 
+ 
 - python3 -m venv virtual - source virtual/bin/activate  
-```  
+ 
 ##### Install Dependencies  
 
  pip install -r requirements.txt 
