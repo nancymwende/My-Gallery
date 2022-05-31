@@ -18,7 +18,7 @@ from pathlib import Path
 
 MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config('DEBUG', default=True)
 # development
 if config('MODE')=="dev":
     DATABASES = {
@@ -112,15 +112,6 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgresql',
-        'USER':'moringa',
-        'PASSWORD':'0705176007'
-        
-    }
-}
 
 
 # Password validation
