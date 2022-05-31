@@ -8,16 +8,16 @@
   
 # Description  
 This a gallery application with a collection of various pictures.A new User is able to click and view the location,category and description of each picture.User can also add,change,,edit ,delete pictures via the admin dashboard.
-  
-##  Live Link  
- 
- https://photosmegas.herokuapp.com/
-  
-## Screenshot
 
- 
+##  Live Link  
+
+
+
+## Screenshot
+<img src="media/pictures/gallery1.png">
+
 ## User Story  
-  
+
 * View different photos from the galllery 
 * Click an image to see the description,location,category and copy the link button.  
 * Search for images by different categories.   
@@ -32,16 +32,16 @@ This a gallery application with a collection of various pictures.A new User is a
 
 ##### Navigate into the folder and install requirements  
  ```bash 
-cd Picture-Globe pip install -r requirements.txt 
+cd mygallery pip install -r requirements.txt 
 ```
 ##### Install and activate Virtual  
  ```bash 
 - python3 -m venv virtual - source virtual/bin/activate  
 ```  
 ##### Install Dependencies  
- ```bash 
+
  pip install -r requirements.txt 
-```  
+ 
  ##### Setup Database  
   SetUp your database User,Password, Host then make migrate  
  ```bash 
@@ -52,17 +52,9 @@ python manage.py makemigrations photos
  python manage.py migrate 
 ```
 ##### Run the application  
- ```bash 
+
  python manage.py runserver 
-``` 
-##### Running the application  
- ```bash 
- python manage.py server 
-```
-##### Testing the application  
- ```bash 
- python manage.py test 
-```
+
 Open the application on your browser `127.0.0.1:8000`.  
   
   
@@ -80,6 +72,7 @@ Alert if any.
 ## Support and Contact Information 
 
 To make a contribution to the code used or for any queries feel free to contact me via my email addresses nancy.mwende@student.moringaschool.com or via 0746451157.
+
 
 ## License
 
