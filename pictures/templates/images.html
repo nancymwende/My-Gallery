@@ -23,8 +23,10 @@
             <img src="{{images.image.url}}" class="img-responsive" alt="Image" height="300vh" width="50%"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <input type="text" id="image_link" value="{{images.image.url}}"
+                    class="btn btn-outline-success form-control">
+                <button onclick="myFunction()">Copy Link</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
