@@ -9,7 +9,11 @@
 # Description  
 This a gallery application with a collection of various pictures.A new User is able to click and view the location,category and description of each picture.User can also add,change,,edit ,delete pictures via the admin dashboard.
 
-##  Live Link  
+##Screenshot
+<img src="/media/pictures/gallery1.png">
+
+##  Live Link
+https://nancygal.herokuapp.com/
 
 
 
@@ -25,6 +29,7 @@ This a gallery application with a collection of various pictures.A new User is a
 ## Setup and Installation  
   
 ##### Clone the repository:  
+https://github.com/nancymwende/My-Gallery
 
 
 ##### Navigate into the folder and install requirements  
