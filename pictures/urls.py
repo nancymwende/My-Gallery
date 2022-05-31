@@ -5,8 +5,7 @@ from . import views
 
 urlpatterns=[
     path('',views.images,name = 'images'),
-    path('search/', views.search_results, name='search_results'),
-    path('admin dashboard/',views.admin,name='admin dashboard')
+    path('search/', views.search_results, name='search_results')
         
 ]
 if settings.DEBUG:
